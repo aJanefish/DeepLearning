@@ -120,7 +120,7 @@ def load_mnist(normalize=True, flatten=True, one_hot_label=False):
     with open(save_file, 'rb') as f:
         dataset = pickle.load(f)
 
-    print("dataset = ", type(dataset))
+    # print("dataset = ", type(dataset))
 
     if normalize:
         for key in ('train_img', 'test_img'):

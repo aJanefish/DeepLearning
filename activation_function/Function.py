@@ -84,7 +84,7 @@ def test():
     elif flag == 3:
         test_relu()
     else:
-        test_sigmoid_and_step_function
+        test_sigmoid_and_step_function()
     pass
 
 
